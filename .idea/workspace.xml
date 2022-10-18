@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="126b67be-85a6-42f0-9bdb-4ef3bee87427" name="Default Changelist" comment="добавили коментарий&#10;РЕР-8 наше всё">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="126b67be-85a6-42f0-9bdb-4ef3bee87427" name="Default Changelist" comment="дз про ряд Тейлора&#10;делал арксинус" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager" selected="Python.program_1">
     <configuration name="hello_world" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -110,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664917316833</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="дз про ряд Тейлора&#10;делал арксинус">
+      <created>1666119746401</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666119746401</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +134,7 @@
     <MESSAGE value="первое дз&#10;program_1 добавлена" />
     <MESSAGE value="первое дз&#10;pep 8 наше все" />
     <MESSAGE value="добавили коментарий&#10;РЕР-8 наше всё" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавили коментарий&#10;РЕР-8 наше всё" />
+    <MESSAGE value="дз про ряд Тейлора&#10;делал арксинус" />
+    <option name="LAST_COMMIT_MESSAGE" value="дз про ряд Тейлора&#10;делал арксинус" />
   </component>
 </project>
