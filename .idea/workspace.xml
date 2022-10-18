@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="126b67be-85a6-42f0-9bdb-4ef3bee87427" name="Default Changelist" comment="первое дз&#10;pep 8 наше все">
+    <list default="true" id="126b67be-85a6-42f0-9bdb-4ef3bee87427" name="Default Changelist" comment="добавили коментарий&#10;РЕР-8 наше всё">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664352428889</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="добавили коментарий&#10;РЕР-8 наше всё">
+      <created>1664917316833</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664917316833</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="первое дз&#10;program_1 добавлена" />
     <MESSAGE value="первое дз&#10;pep 8 наше все" />
-    <option name="LAST_COMMIT_MESSAGE" value="первое дз&#10;pep 8 наше все" />
+    <MESSAGE value="добавили коментарий&#10;РЕР-8 наше всё" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавили коментарий&#10;РЕР-8 наше всё" />
   </component>
 </project>
