@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="126b67be-85a6-42f0-9bdb-4ef3bee87427" name="Default Changelist" comment="Сделал реактивную ракету&#10;Мне нравится)">
-      <change afterPath="$PROJECT_DIR$/efklid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raketa.py" beforeDir="false" afterPath="$PROJECT_DIR$/raketa.py" afterDir="false" />
+    <list default="true" id="126b67be-85a6-42f0-9bdb-4ef3bee87427" name="Default Changelist" comment="Евклид простой">
+      <change beforePath="$PROJECT_DIR$/efklid.py" beforeDir="false" afterPath="$PROJECT_DIR$/efklid.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667939035066</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Евклид простой">
+      <created>1668967130178</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668967130178</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +214,7 @@
     <MESSAGE value="дз про ряд Тейлора&#10;делал арксинус" />
     <MESSAGE value="дз про фрактал&#10;по идее это листочек папоротника" />
     <MESSAGE value="Сделал реактивную ракету&#10;Мне нравится)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал реактивную ракету&#10;Мне нравится)" />
+    <MESSAGE value="Евклид простой" />
+    <option name="LAST_COMMIT_MESSAGE" value="Евклид простой" />
   </component>
 </project>
