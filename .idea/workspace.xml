@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="126b67be-85a6-42f0-9bdb-4ef3bee87427" name="Default Changelist" comment="Евклид простой">
+    <list default="true" id="126b67be-85a6-42f0-9bdb-4ef3bee87427" name="Default Changelist" comment="Евклид расширенный">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/efklid.py" beforeDir="false" afterPath="$PROJECT_DIR$/efklid.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +20,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="c7aa0e84-4f9e-4d75-891f-1c2d0f2efc86" />
   </component>
@@ -33,7 +42,28 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Documents" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.raketa">
+  <component name="RunManager" selected="Python.efklid">
+    <configuration name="efklid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dz_univer_Kononov" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/efklid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="fractal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dz_univer_Kononov" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,6 +150,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.efklid" />
         <item itemvalue="Python.raketa" />
         <item itemvalue="Python.fractal" />
         <item itemvalue="Python.program_1" />
@@ -192,7 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668967130178</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Евклид расширенный">
+      <created>1668967708689</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668967708689</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Евклид расширенный">
+      <created>1668967746831</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668967746831</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +260,7 @@
     <MESSAGE value="дз про фрактал&#10;по идее это листочек папоротника" />
     <MESSAGE value="Сделал реактивную ракету&#10;Мне нравится)" />
     <MESSAGE value="Евклид простой" />
-    <option name="LAST_COMMIT_MESSAGE" value="Евклид простой" />
+    <MESSAGE value="Евклид расширенный" />
+    <option name="LAST_COMMIT_MESSAGE" value="Евклид расширенный" />
   </component>
 </project>
