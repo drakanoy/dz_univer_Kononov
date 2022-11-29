@@ -149,3 +149,6 @@ class Quaternion(Number):
             return int(self.a)
         else:
             raise QuaternionDomainError("Can't consider higher degree Quaternion as a integrate")
+
+    def __bool__(self):
+        return self.a or self.b or self.c or self.d
