@@ -18,10 +18,10 @@ class Quaternion(Number):
 
     def __init__(self, a=0.0, b=0.0, c=0.0, d=0.0):
         if isinstance(a, complex) or isinstance(b, complex):
-            self.a = float(a).real
-            self.b = float(a).imag
-            self.c = float(b).real
-            self.d = float(b).imag
+            self.a = a.real
+            self.b = a.imag
+            self.c = b.real
+            self.d = b.imag
         elif isinstance(a, Number) and isinstance(b, Number) and isinstance(c, Number) and isinstance(d, Number):
             self.a = a
             self.b = b
@@ -49,6 +49,9 @@ class Quaternion(Number):
             return self.a == other.a and self.b == other.b and self.c == other.c and self.d == other.d
         else:
             raise QuaternionDomainError("Can't say if Quaternion is equal to " + str(type(other)))
+
+    def __ne__(self, other):
+        return not self.__eq__(other)
 
     def __add__(self, other):
         if isinstance(other, Number) and not isinstance(other, Quaternion):
@@ -117,37 +120,33 @@ class Quaternion(Number):
 
         return other.__truediv__(self)
 
+    def __pow__(self, power, modulo=None):
+        if power == 1:
+            return self
+        else:
+            if isinstance(power, int):
+                return self.__mul__(self.__pow__(power - 1))
+            else:
+                raise QuaternionTypeError("You can't raise Quaternion to a not-int degree")
+
     def conjugate(self):
         return Quaternion(self.a, -1 * self.b, -1 * self.c, -1 * self.d)
 
     def __complex__(self):
-        return complex(self.a, self.b), complex(self.c, self.d)
+        if not (self.c or self.d):
+            return complex(self.a, self.b)
+        else:
+            raise QuaternionDomainError("Can't consider higher degree Quaternion as a complex")
 
     def __float__(self):
-        if not (self.b, self.c, self.d):
+        if not (self.b or self.c or self.d):
             return float(self.a)
         else:
-            raise QuaternionDomainError("Can't consider higher degree polynomial as a float")
+            raise QuaternionDomainError("Can't consider higher degree Quaternion as a float")
 
     def __int__(self):
-        if not (self.b, self.c, self.d):
+        if not (self.b or self.c or self.d):
             return int(self.a)
         else:
-            raise QuaternionDomainError("Can't consider higher degree polynomial as a integrate")
+            raise QuaternionDomainError("Can't consider higher degree Quaternion as a integrate")
 
-
-q = Quaternion(1, 2, 3, 4)
-w = Quaternion(0, -3, 0, 0.1)
-print(q, w)
-print(q.a)
-a = q + w
-print(a)
-print(a.a)
-print(q - w)
-print(q * w)
-print(q / w)
-print(w / w)
-print(1 / q)
-print(-q)
-print(q * w - w * q)
-print(q == q, q == w)
