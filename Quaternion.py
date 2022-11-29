@@ -44,3 +44,49 @@ class Quaternion(Number):
             return self.a == other.a and self.b == other.b and self.c == other.c and self.d == other.d
         else:
             raise QuaternionDomainError("Can't say if Quaternion is equal to " + str(type(other)))
+
+    def __add__(self, other):
+        if isinstance(other, Number):
+            other = Quaternion(other)
+
+        a = self.a + other.a
+        b = self.b + other.b
+        c = self.c + other.c
+        d = self.d + other.d
+        return Quaternion(a, b, c, d)
+
+    def __radd__(self, other):
+        return self.__add__(other)
+
+    def __neg__(self):
+        return Quaternion(-1 * self.a, -1 * self.d, -1 * self.c, -1 * self.d)
+
+    def __sub__(self, other):
+        return self.__add__(other.__neg__())
+
+    def __rsub__(self, other):
+        return other.__sub__(self)
+
+    def __mul__(self, other):
+        if isinstance(other, Number):
+            other = Quaternion(other)
+
+        a1 = self.a
+        a2 = other.a
+        b1 = self.b
+        b2 = other.b
+        c1 = self.c
+        c2 = other.c
+        d1 = self.d
+        d2 = other.d
+        a = a1 * a2 - b1 * b2 - c1 * c2 - d1 * d2
+        b = a1 * b2 + b1 * a2 + c1 * d2 - d1 * c2
+        c = a1 * c2 - b1 * d2 + c1 * a2 + d1 * b2
+        d = a1 * d2 + b1 * c2 - c1 * b2 + d1 * a2
+        return Quaternion(a, b, c, d)
+
+    def __rmul__(self, other):
+        if isinstance(other, Number):
+            other = Quaternion(other)
+
+        return other.__mul__(self)
