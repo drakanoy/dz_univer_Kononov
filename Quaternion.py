@@ -149,4 +149,3 @@ class Quaternion(Number):
             return int(self.a)
         else:
             raise QuaternionDomainError("Can't consider higher degree Quaternion as a integrate")
-

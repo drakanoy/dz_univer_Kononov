@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="126b67be-85a6-42f0-9bdb-4ef3bee87427" name="Default Changelist" comment="Кватернионы конец&#10;парочка ошибок исправлена)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quaternion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Quaternion.py" afterDir="false" />
-    </list>
+    <list default="true" id="126b67be-85a6-42f0-9bdb-4ef3bee87427" name="Default Changelist" comment="Кватернионы конец" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -279,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669759064619</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Кватернионы конец">
+      <created>1669761124943</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669761124943</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,6 +312,7 @@
     <MESSAGE value="Кватернионы середина" />
     <MESSAGE value="Кватернионы конец&#10;надо сделать проверку" />
     <MESSAGE value="Кватернионы конец&#10;парочка ошибок исправлена)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Кватернионы конец&#10;парочка ошибок исправлена)" />
+    <MESSAGE value="Кватернионы конец" />
+    <option name="LAST_COMMIT_MESSAGE" value="Кватернионы конец" />
   </component>
 </project>
