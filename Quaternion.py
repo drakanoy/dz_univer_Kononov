@@ -17,7 +17,12 @@ class Quaternion(Number):
     """Кватеринионы"""
 
     def __init__(self, a=0.0, b=0.0, c=0.0, d=0.0):
-        if isinstance(a, Number) and isinstance(b, Number) and isinstance(c, Number) and isinstance(d, Number):
+        if isinstance(a, complex) and isinstance(b, complex):
+            self.a = a.real
+            self.b = a.imag
+            self.c = b.real
+            self.d = b.imag
+        elif isinstance(a, Number) and isinstance(b, Number) and isinstance(c, Number) and isinstance(d, Number):
             self.a = a
             self.b = b
             self.c = c
@@ -90,3 +95,42 @@ class Quaternion(Number):
             other = Quaternion(other)
 
         return other.__mul__(self)
+
+    def __abs__(self):
+        return (self.a ** 2 + self.b ** 2 + self.c ** 2 + self.d ** 2)**0.5
+
+    def __mod__(self, other):
+        if isinstance(other, Number):
+            other = Quaternion(other)
+        if other == Quaternion(0):
+            raise ZeroDivisionError()
+        modul2 = other.__abs__() ** 2
+        a = other.a / modul2
+        b = -1 * other.b / modul2
+        c = -1 * other.c / modul2
+        d = -1 * other.d / modul2
+        return self.__mul__(Quaternion(a, b, c, d))
+
+    def __rmod__(self, other):
+        if isinstance(other, Number):
+            other = Quaternion(other)
+
+        return other.__mod__(self)
+
+    def conjugate(self):
+        return Quaternion(self.a, -1 * self.b, -1 * self.c, -1 * self.d)
+
+    def __complex__(self):
+        return complex(self.a, self.b), complex(self.c, self.d)
+
+    def __float__(self):
+        if not(self.b, self.c, self.d):
+            return float(self.a)
+        else:
+            raise QuaternionDomainError("Can't consider higher degree polynomial as a float")
+
+    def __int__(self):
+        if not(self.b, self.c, self.d):
+            return int(self.a)
+        else:
+            raise QuaternionDomainError("Can't consider higher degree polynomial as a integrate")
