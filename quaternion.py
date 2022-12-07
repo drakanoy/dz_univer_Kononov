@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 from numbers import Number
-import itertools
 
 
 class QuaternionTypeError(TypeError):
@@ -129,7 +128,7 @@ class Quaternion(Number):
             else:
                 raise QuaternionTypeError("You can't raise Quaternion to a not-int degree")
 
-    def conjugate(self):
+    def conjugate(self):  # возвращает сопряженной число
         return Quaternion(self.a, -1 * self.b, -1 * self.c, -1 * self.d)
 
     def __complex__(self):
