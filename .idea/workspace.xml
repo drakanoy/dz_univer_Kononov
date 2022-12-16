@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="126b67be-85a6-42f0-9bdb-4ef3bee87427" name="Default Changelist" comment="Кватернионы исправление ошибок">
+    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="Кватернионы конец">
+      <change afterPath="$PROJECT_DIR$/type_annotation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +40,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.quaternion_proverka">
+  <component name="RunManager" selected="Python.type_annotation">
     <configuration name="efklid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dz_univer_Kononov" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="raketa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="type_annotation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dz_univer_Kononov" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,7 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/raketa.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/type_annotation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,18 +150,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.type_annotation" />
         <item itemvalue="Python.quaternion_proverka" />
         <item itemvalue="Python.quaternion" />
         <item itemvalue="Python.kepler" />
         <item itemvalue="Python.efklid" />
-        <item itemvalue="Python.raketa" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="126b67be-85a6-42f0-9bdb-4ef3bee87427" name="Default Changelist" comment="" />
+      <changelist id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="Кватернионы конец" />
       <created>1662546731605</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
