@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="ускорение программ" />
+    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="выделил 1 семестр в отдельную папку для лучшей навигации">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,17 +41,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "D:/draka/PycharmProjects/dz_univer_Kononov/benchmarks/compiled_modules",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;D:/draka/PycharmProjects/dz_univer_Kononov/benchmarks/compiled_modules&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\draka\PycharmProjects\dz_univer_Kononov\benchmarks\compiled_modules" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\draka\PycharmProjects\dz_univer_Kononov\semestor1" />
       <recent name="D:\draka\PycharmProjects\dz_univer_Kononov\benchmarks\compiled_modules" />
     </key>
   </component>
@@ -339,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677293408473</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="выделил 1 семестр в отдельную папку для лучшей навигации">
+      <created>1677293780774</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1677293780774</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -372,6 +382,7 @@
     <MESSAGE value="аннотация типов&#10;проверяем типы каких переменных можно скармливать моему арксинусу" />
     <MESSAGE value="проверка на простоту" />
     <MESSAGE value="ускорение программ" />
-    <option name="LAST_COMMIT_MESSAGE" value="ускорение программ" />
+    <MESSAGE value="выделил 1 семестр в отдельную папку для лучшей навигации" />
+    <option name="LAST_COMMIT_MESSAGE" value="выделил 1 семестр в отдельную папку для лучшей навигации" />
   </component>
 </project>
