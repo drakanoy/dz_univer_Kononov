@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="аннотация типов&#10;проверяем типы каких переменных можно скармливать моему арксинусу">
-      <change afterPath="$PROJECT_DIR$/prostota.py" afterDir="false" />
+    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="проверка на простоту">
+      <change afterPath="$PROJECT_DIR$/benchmarks/acr_sin_python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/bench.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/compiled_modules/build.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/compiled_modules/cpython_arc_sin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/compiled_modules/mypy_arc_sin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/compiled_modules/pyx_cpython_acr_sin.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/compiled_modules/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/numba_arc_sin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/time_test.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dz_univer_Kononov.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dz_univer_Kononov.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar_1/program_1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,19 +45,30 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="c7aa0e84-4f9e-4d75-891f-1c2d0f2efc86" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2ER7qCWA0vEjuKarFtABO1Xc433" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "D:/draka/PycharmProjects/dz_univer_Kononov/benchmarks/compiled_modules",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\draka\PycharmProjects\dz_univer_Kononov\benchmarks\compiled_modules" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\draka\PycharmProjects\dz_univer_Kononov\benchmarks\compiled_modules" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.type_annotation">
-    <configuration name="efklid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.bench">
+    <configuration name="bench" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dz_univer_Kononov" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,11 +76,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/benchmarks" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/efklid.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/benchmarks/bench.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -64,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kepler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="prostota" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dz_univer_Kononov" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,7 +101,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kepler.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prostota.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="quaternion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="proverka" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dz_univer_Kononov" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,7 +122,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\draka\PycharmProjects\dz_univer_Kononov\quaternion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proverka.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="quaternion_proverka" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dz_univer_Kononov" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +139,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/benchmarks/compiled_modules" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quaternion_proverka.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/benchmarks/compiled_modules/setup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bench" />
+        <item itemvalue="Python.proverka" />
+        <item itemvalue="Python.setup" />
+        <item itemvalue="Python.prostota" />
         <item itemvalue="Python.type_annotation" />
-        <item itemvalue="Python.quaternion_proverka" />
-        <item itemvalue="Python.quaternion" />
-        <item itemvalue="Python.kepler" />
-        <item itemvalue="Python.efklid" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671190438311</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="проверка на простоту">
+      <created>1672076386292</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1672076386292</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,7 +359,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="первое дз&#10;program_1 добавлена" />
@@ -346,6 +377,7 @@
     <MESSAGE value="Кватернионы конец" />
     <MESSAGE value="Кватернионы исправление ошибок" />
     <MESSAGE value="аннотация типов&#10;проверяем типы каких переменных можно скармливать моему арксинусу" />
-    <option name="LAST_COMMIT_MESSAGE" value="аннотация типов&#10;проверяем типы каких переменных можно скармливать моему арксинусу" />
+    <MESSAGE value="проверка на простоту" />
+    <option name="LAST_COMMIT_MESSAGE" value="проверка на простоту" />
   </component>
 </project>

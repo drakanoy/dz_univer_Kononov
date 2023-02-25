@@ -1,0 +1,14 @@
+первая попытка
+<class 'acr_sin_python.My_arcsin'> 0.24294093912244805 12.61660966000054s
+<class 'cpython_arc_sin.My_arcsin'> 0.24294093912244805 12.97966084999498s
+<class 'mypy_arc_sin.My_arcsin'> 0.24294093912244805 13.003431889996865s
+<class 'numba.experimental.jitclass.base.My_arcsin'> 0.24294093912244805 0.8730721199885011s
+вторая попытка
+<class 'acr_sin_python.My_arcsin'> 0.0 8.890777510008775s
+<class 'cpython_arc_sin.My_arcsin'> 0.0 8.82262258999981s
+<class 'mypy_arc_sin.My_arcsin'> 0.0 8.867586300009862s
+<class 'numba.experimental.jitclass.base.My_arcsin'> 0.0 0.7954083899967372s
+
+не получилось попробовать cython.pyx
+а так в подсчете полиномов Тейлора numba оказалась быстрее всех
+остальные варианты оказались на одном уровне, хоть лично я думал, что mypy будет быстрее
