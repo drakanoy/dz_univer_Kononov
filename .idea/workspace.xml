@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="проверка на простоту">
-      <change afterPath="$PROJECT_DIR$/benchmarks/acr_sin_python.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmarks/bench.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmarks/compiled_modules/build.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmarks/compiled_modules/cpython_arc_sin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmarks/compiled_modules/mypy_arc_sin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmarks/compiled_modules/pyx_cpython_acr_sin.pyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmarks/compiled_modules/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmarks/numba_arc_sin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmarks/time_test.text" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dz_univer_Kononov.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dz_univer_Kononov.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seminar_1/program_1.py" beforeDir="false" />
-    </list>
+    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="ускорение программ" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +87,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prostota.py" />
+      <option name="SCRIPT_NAME" value="D:\draka\PycharmProjects\dz_univer_Kononov\semestor1\prostota.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,7 +150,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/type_annotation.py" />
+      <option name="SCRIPT_NAME" value="D:\draka\PycharmProjects\dz_univer_Kononov\semestor1\type_annotation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -346,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672076386292</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="ускорение программ">
+      <created>1677293408473</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1677293408473</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,6 +371,7 @@
     <MESSAGE value="Кватернионы исправление ошибок" />
     <MESSAGE value="аннотация типов&#10;проверяем типы каких переменных можно скармливать моему арксинусу" />
     <MESSAGE value="проверка на простоту" />
-    <option name="LAST_COMMIT_MESSAGE" value="проверка на простоту" />
+    <MESSAGE value="ускорение программ" />
+    <option name="LAST_COMMIT_MESSAGE" value="ускорение программ" />
   </component>
 </project>
