@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="проверка для Гаусса&#10;сам результат проверки в конце файла gauss.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gauss.py" beforeDir="false" afterPath="$PROJECT_DIR$/gauss.py" afterDir="false" />
-    </list>
+    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="проверим скорость моего &quot;метода Гаусса&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -374,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677628955404</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="проверим скорость моего &quot;метода Гаусса&quot;">
+      <created>1677630140202</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1677630140202</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,6 +415,7 @@
     <MESSAGE value="txt a не text файл)" />
     <MESSAGE value="метод Гаусса" />
     <MESSAGE value="проверка для Гаусса&#10;сам результат проверки в конце файла gauss.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="проверка для Гаусса&#10;сам результат проверки в конце файла gauss.py" />
+    <MESSAGE value="проверим скорость моего &quot;метода Гаусса&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="проверим скорость моего &quot;метода Гаусса&quot;" />
   </component>
 </project>

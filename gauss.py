@@ -47,6 +47,6 @@ oob_solution = solve_out_of_the_box(a, b)
 print(solution)
 print("Макс отклонение компоненты решения:", norm(solution - oob_solution, ord=1))
 print(test_error(vector_gauss))
-
+# посмотрим на скорость работы ради интереса)))
 print('Мой метод Гаусса', timeit.timeit(lambda: test_error(vector_gauss), number=10) / 10)
 print('Встроенный метод Гаусса', timeit.timeit(lambda: test_error(solve_out_of_the_box), number=10) / 10)
