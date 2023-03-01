@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="метод Гаусса" />
+    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="проверка для Гаусса&#10;сам результат проверки в конце файла gauss.py">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gauss.py" beforeDir="false" afterPath="$PROJECT_DIR$/gauss.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -364,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677628732904</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="проверка для Гаусса&#10;сам результат проверки в конце файла gauss.py">
+      <created>1677628955404</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1677628955404</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,17 +410,7 @@
     <MESSAGE value="выделил 1 семестр в отдельную папку для лучшей навигации" />
     <MESSAGE value="txt a не text файл)" />
     <MESSAGE value="метод Гаусса" />
-    <option name="LAST_COMMIT_MESSAGE" value="метод Гаусса" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/gauss.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="проверка для Гаусса&#10;сам результат проверки в конце файла gauss.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="проверка для Гаусса&#10;сам результат проверки в конце файла gauss.py" />
   </component>
 </project>
