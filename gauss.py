@@ -7,15 +7,6 @@ from numpy.linalg import solve as solve_out_of_the_box
 from proverka_gauss import test_error
 import timeit
 
-a = array([
-    [1.5, 2.0, 1.5, 2.0],
-    [3.0, 2.0, 4.0, 1.0],
-    [1.0, 6.0, 0.0, 4],
-    [2.0, 1.0, 4.0, 3]
-], dtype=float)
-
-b = array([5, 6, 7, 8], dtype=float)
-
 
 def vector_gauss(a, b):
     ab = concatenate((a, array([b]).T), axis=1)  # concatenate заодно и скопирует
@@ -31,7 +22,7 @@ def vector_gauss(a, b):
         ab[i], ab[j] = ab[j], ab[i]
         ab[i] = ab[i] / ab_ii
         for k in range(i + 1, d):
-            ab[k] = ab[k] - ab[k, i] * ab[i]
+            ab[k] = ab[k] - (ab[i] * ab[k, i])
 
     # обратный
     for i in range(d - 1, -1, -1):
@@ -44,12 +35,23 @@ def vector_gauss(a, b):
     return x
 
 
-solution = vector_gauss(a, b)
-oob_solution = solve_out_of_the_box(a, b)
+#  print(multiply(array([[1, 2], [3, 4]]), array([2])))
+if __name__ == '__main__':
+    a = array([
+        [1.5, 2.0, 1.5, 2.0],
+        [3.0, 2.0, 4.0, 1.0],
+        [1.0, 6.0, 0.0, 4],
+        [2.0, 1.0, 4.0, 3]
+    ], dtype=float)
 
-print(solution)
-print("Макс отклонение компоненты решения:", norm(solution - oob_solution, ord=1))
-print(test_error(vector_gauss))
-# посмотрим на скорость работы ради интереса)))
-print('Мой метод Гаусса', timeit.timeit(lambda: test_error(vector_gauss), number=10) / 10)
-print('Встроенный метод Гаусса', timeit.timeit(lambda: test_error(solve_out_of_the_box), number=10) / 10)
+    b = array([5, 6, 7, 8], dtype=float)
+
+    solution = vector_gauss(a, b)
+    oob_solution = solve_out_of_the_box(a, b)
+
+    print(solution)
+    print("Макс отклонение компоненты решения:", norm(solution - oob_solution, ord=1))
+    print(test_error(vector_gauss))
+    # посмотрим на скорость работы ради интереса)))
+    print('Мой метод Гаусса', timeit.timeit(lambda: test_error(vector_gauss), number=10) / 10)
+    print('Встроенный метод Гаусса', timeit.timeit(lambda: test_error(solve_out_of_the_box), number=10) / 10)

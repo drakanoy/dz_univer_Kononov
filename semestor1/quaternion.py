@@ -40,6 +40,9 @@ class Quaternion(Number):
         return str(self.a) + y(self.b) + str(abs(self.b)) + 'i' + y(self.c) + str(abs(self.c)) + 'j' + y(self.d) + str(
             abs(self.d)) + 'k'
 
+    def __repr__(self):
+        return self.__str__()
+
     def __eq__(self, other):
         if isinstance(other, Number) and not isinstance(other, Quaternion):
             other = Quaternion(other)
