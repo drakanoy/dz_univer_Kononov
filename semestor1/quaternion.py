@@ -13,7 +13,7 @@ class QuaternionDomainError(ValueError):
 
 
 class Quaternion(Number):
-    """Кватеринионы"""
+    """Кватернионы"""
 
     def __init__(self, a=0.0, b=0.0, c=0.0, d=0.0):
         if isinstance(a, complex) or isinstance(b, complex):
