@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="Реализовал метод Монте-Карло для расчета n-мерных интегралов, проверка осуществляется с помощью библиотеки scipy">
-      <change afterPath="$PROJECT_DIR$/paralel_Monte_Carlo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/время_при_распараллеливании.txt" afterDir="false" />
+    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="Распараллелил метод Монте-Карло&#10;результаты для разного числа процессов и количества точек написаны в файле">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -417,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678995064453</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Распараллелил метод Монте-Карло&#10;результаты для разного числа процессов и количества точек написаны в файле">
+      <created>1680996798191</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1680996798191</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -432,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="первое дз&#10;program_1 добавлена" />
     <MESSAGE value="первое дз&#10;pep 8 наше все" />
     <MESSAGE value="добавили коментарий&#10;РЕР-8 наше всё" />
     <MESSAGE value="дз про ряд Тейлора&#10;делал арксинус" />
@@ -457,6 +461,7 @@
     <MESSAGE value="проверим скорость моего &quot;метода Гаусса&quot;" />
     <MESSAGE value="использую метод Гаусса для решения матриц, составленных из кватернионов" />
     <MESSAGE value="Реализовал метод Монте-Карло для расчета n-мерных интегралов, проверка осуществляется с помощью библиотеки scipy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализовал метод Монте-Карло для расчета n-мерных интегралов, проверка осуществляется с помощью библиотеки scipy" />
+    <MESSAGE value="Распараллелил метод Монте-Карло&#10;результаты для разного числа процессов и количества точек написаны в файле" />
+    <option name="LAST_COMMIT_MESSAGE" value="Распараллелил метод Монте-Карло&#10;результаты для разного числа процессов и количества точек написаны в файле" />
   </component>
 </project>
