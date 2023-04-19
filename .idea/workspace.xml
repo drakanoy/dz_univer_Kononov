@@ -422,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680996798191</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Распараллелил метод Монте-Карло&#10;результаты для разного числа процессов и количества точек написаны в файле">
+      <created>1680998686749</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1680998686749</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
