@@ -305,9 +305,9 @@ class MyWidget(QMainWindow, Ui_MainWindow):  # Главное окно
         self.n = -1  # Количество выборов ответа
         self.nombers_voprosov = 0
         self.praveln_otvet = 0
-        self.label_4.installEventFilter(self)  # Обрабатываем все Event связаные с label_4
+        self.label_4.installEventFilter(self)  # Обрабатываем все Event связанные с label_4
 
-    def eventFilter(self, obj, e):  # Обрабатываем все Event связаные с label_4
+    def eventFilter(self, obj, e):  # Обрабатываем все Event связанные с label_4
         if e.type() == 2:  # Спрашиваем была ли нажата кнопка на мыши
             btn = e.button()
             self.Reclama()
@@ -336,7 +336,7 @@ class MyWidget(QMainWindow, Ui_MainWindow):  # Главное окно
                 raise ValueError
             if self.nombers_voprosov + 1 > len(self.voprosy):
                 raise Len_menhe_Error
-            if self.sender().text() == self.voprosy[self.n][1]:  # сравниваем выбор и правельный ответ
+            if self.sender().text() == self.voprosy[self.n][1]:  # сравниваем выбор и правильный ответ
                 self.label.setText('Молодец правильно')
                 self.praveln_otvet += 1
             else:
@@ -354,10 +354,10 @@ class MyWidget(QMainWindow, Ui_MainWindow):  # Главное окно
             self.n += 1
             self.pokaz_vopros()
         except ValueError:
-            self.label.setText('Введите коректное кол-во вопросов')
+            self.label.setText('Введите корректное кол-во вопросов')
             self.error_box = QMessageBox()
             self.error_box.setWindowTitle('Ошибка')
-            self.error_box.setText('Введите коректное кол-во вопросов')
+            self.error_box.setText('Введите корректное кол-во вопросов')
             self.error_box.show()
         except Len_menhe_Error:
             self.label.setText('Слишком много вопросов')
@@ -384,10 +384,10 @@ class MyWidget(QMainWindow, Ui_MainWindow):  # Главное окно
             self.pokaz_vopros()
             self.pushButton_6.hide()
         except ValueError:
-            self.label.setText('Введите коректное кол-во вопросов')
+            self.label.setText('Введите корректное кол-во вопросов')
             self.error_box = QMessageBox()
             self.error_box.setWindowTitle('Ошибка')
-            self.error_box.setText('Введите коректное кол-во вопросов')
+            self.error_box.setText('Введите корректное кол-во вопросов')
             self.error_box.show()
         except Len_menhe_Error:
             self.label.setText('Cлишком много вопросов')
@@ -411,7 +411,7 @@ class MyWidget(QMainWindow, Ui_MainWindow):  # Главное окно
     def generacya_otvet(self):
         data = (self.voprosy[self.n][1]).split('.')
         got = str(data[0])  # Генерируем ответ
-        if got[0] + got[1] == '20':  # и если дата близкая к севоднешней мы уменьшаем диапозон дат
+        if got[0] + got[1] == '20':  # и если дата близкая к сегодняшней мы уменьшаем диапазон дат
             year = int(got) - randint(0, 10)
             generate_data = dt(year, randint(1, 12), randint(1, 28))
         else:
@@ -440,9 +440,9 @@ class Windiw_result(QMainWindow, Desain_windiw_result):  # Окно записи
         self.setupUi(self)
         self.bals = bals
         self.pushButton.clicked.connect(self.save_result)
-        self.label_2.installEventFilter(self)  # Обрабатываем все Event связаные с label_2
+        self.label_2.installEventFilter(self)  # Обрабатываем все Event связанные с label_2
 
-    def eventFilter(self, obj, e):  # Обрабатываем все Event связаные с label_2
+    def eventFilter(self, obj, e):  # Обрабатываем все Event связанные с label_2
         if e.type() == 2:  # Спрашиваем была ли нажата кнопка на мыши
             btn = e.button()
             self.Reclama()

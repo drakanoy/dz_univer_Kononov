@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="Распараллелил метод Монте-Карло&#10;результаты для разного числа процессов и количества точек написаны в файле">
+    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="мой старый QT проект &#10;немного доработал и обновил до версии Qt6&#10;это игра - историческая викторина&#10;выбирается файл с БД вопросов и ответами в виде дат &#10;Программа сама генерирует неправильные ответы и предлагает выбрать нужный&#10;по окончании игры она записывает твой результат в БД с результатами, где ты можешь сравнить свой результат с остальными">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,12 +45,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;D:/draka/PycharmProjects/dz_univer_Kononov/benchmarks/compiled_modules&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/draka/PycharmProjects/dz_univer_Kononov/benchmarks/compiled_modules",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\draka\PycharmProjects\dz_univer_Kononov\benchmarks\compiled_modules" />
@@ -59,7 +61,7 @@
       <recent name="D:\draka\PycharmProjects\dz_univer_Kononov\benchmarks\compiled_modules" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.paralel_Monte_Carlo">
+  <component name="RunManager" selected="Python.proect">
     <configuration name="Monte_Carlo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dz_univer_Kononov" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="prov" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="proect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dz_univer_Kononov" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,11 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QT/Проект" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prov.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QT/Проект/proect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.proect" />
         <item itemvalue="Python.paralel_Monte_Carlo" />
         <item itemvalue="Python.Monte_Carlo" />
         <item itemvalue="Python.proverka_moduls" />
         <item itemvalue="Python.gauss" />
-        <item itemvalue="Python.prov" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +431,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680998686749</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="немного моего мнения про интернет">
+      <created>1681943193320</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1681943193320</updated>
+    </task>
+    <task id="LOCAL-00037" summary="мой старый QT проект &#10;немного доработал и обновил до версии Qt6&#10;это игра - историческая викторина&#10;выбирается файл с БД вопросов и ответами в виде дат &#10;Программа сама генерирует неправильные ответы и предлагает выбрать нужный&#10;по окончании игры она записывает твой результат в БД с результатами, где ты можешь сравнить свой результат с остальными">
+      <created>1682977131921</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1682977131921</updated>
+    </task>
+    <task id="LOCAL-00038" summary="мой старый QT проект &#10;немного доработал и обновил до версии Qt6&#10;это игра - историческая викторина&#10;выбирается файл с БД вопросов и ответами в виде дат &#10;Программа сама генерирует неправильные ответы и предлагает выбрать нужный&#10;по окончании игры она записывает твой результат в БД с результатами, где ты можешь сравнить свой результат с остальными">
+      <created>1682977348347</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1682977348347</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -444,8 +467,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="первое дз&#10;pep 8 наше все" />
-    <MESSAGE value="добавили коментарий&#10;РЕР-8 наше всё" />
     <MESSAGE value="дз про ряд Тейлора&#10;делал арксинус" />
     <MESSAGE value="дз про фрактал&#10;по идее это листочек папоротника" />
     <MESSAGE value="Сделал реактивную ракету&#10;Мне нравится)" />
@@ -469,6 +490,8 @@
     <MESSAGE value="использую метод Гаусса для решения матриц, составленных из кватернионов" />
     <MESSAGE value="Реализовал метод Монте-Карло для расчета n-мерных интегралов, проверка осуществляется с помощью библиотеки scipy" />
     <MESSAGE value="Распараллелил метод Монте-Карло&#10;результаты для разного числа процессов и количества точек написаны в файле" />
-    <option name="LAST_COMMIT_MESSAGE" value="Распараллелил метод Монте-Карло&#10;результаты для разного числа процессов и количества точек написаны в файле" />
+    <MESSAGE value="немного моего мнения про интернет" />
+    <MESSAGE value="мой старый QT проект &#10;немного доработал и обновил до версии Qt6&#10;это игра - историческая викторина&#10;выбирается файл с БД вопросов и ответами в виде дат &#10;Программа сама генерирует неправильные ответы и предлагает выбрать нужный&#10;по окончании игры она записывает твой результат в БД с результатами, где ты можешь сравнить свой результат с остальными" />
+    <option name="LAST_COMMIT_MESSAGE" value="мой старый QT проект &#10;немного доработал и обновил до версии Qt6&#10;это игра - историческая викторина&#10;выбирается файл с БД вопросов и ответами в виде дат &#10;Программа сама генерирует неправильные ответы и предлагает выбрать нужный&#10;по окончании игры она записывает твой результат в БД с результатами, где ты можешь сравнить свой результат с остальными" />
   </component>
 </project>
