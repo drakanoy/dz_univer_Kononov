@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="мой старый QT проект &#10;немного доработал и обновил до версии Qt6&#10;это игра - историческая викторина&#10;выбирается файл с БД вопросов и ответами в виде дат &#10;Программа сама генерирует неправильные ответы и предлагает выбрать нужный&#10;по окончании игры она записывает твой результат в БД с результатами, где ты можешь сравнить свой результат с остальными">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="исправление синтаксических ошибок">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,13 +44,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/draka/PycharmProjects/dz_univer_Kononov/benchmarks/compiled_modules",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/draka/PycharmProjects/dz_univer_Kononov/benchmarks/compiled_modules&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\draka\PycharmProjects\dz_univer_Kononov\benchmarks\compiled_modules" />
@@ -61,7 +60,7 @@
       <recent name="D:\draka\PycharmProjects\dz_univer_Kononov\benchmarks\compiled_modules" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.proect">
+  <component name="RunManager" selected="Python.gauss">
     <configuration name="Monte_Carlo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dz_univer_Kononov" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gauss" />
         <item itemvalue="Python.proect" />
         <item itemvalue="Python.paralel_Monte_Carlo" />
         <item itemvalue="Python.Monte_Carlo" />
         <item itemvalue="Python.proverka_moduls" />
-        <item itemvalue="Python.gauss" />
       </list>
     </recent_temporary>
   </component>
@@ -452,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682977348347</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="исправление синтаксических ошибок">
+      <created>1682978251270</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1682978251270</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -467,7 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="дз про ряд Тейлора&#10;делал арксинус" />
     <MESSAGE value="дз про фрактал&#10;по идее это листочек папоротника" />
     <MESSAGE value="Сделал реактивную ракету&#10;Мне нравится)" />
     <MESSAGE value="Евклид простой" />
@@ -492,6 +497,7 @@
     <MESSAGE value="Распараллелил метод Монте-Карло&#10;результаты для разного числа процессов и количества точек написаны в файле" />
     <MESSAGE value="немного моего мнения про интернет" />
     <MESSAGE value="мой старый QT проект &#10;немного доработал и обновил до версии Qt6&#10;это игра - историческая викторина&#10;выбирается файл с БД вопросов и ответами в виде дат &#10;Программа сама генерирует неправильные ответы и предлагает выбрать нужный&#10;по окончании игры она записывает твой результат в БД с результатами, где ты можешь сравнить свой результат с остальными" />
-    <option name="LAST_COMMIT_MESSAGE" value="мой старый QT проект &#10;немного доработал и обновил до версии Qt6&#10;это игра - историческая викторина&#10;выбирается файл с БД вопросов и ответами в виде дат &#10;Программа сама генерирует неправильные ответы и предлагает выбрать нужный&#10;по окончании игры она записывает твой результат в БД с результатами, где ты можешь сравнить свой результат с остальными" />
+    <MESSAGE value="исправление синтаксических ошибок" />
+    <option name="LAST_COMMIT_MESSAGE" value="исправление синтаксических ошибок" />
   </component>
 </project>
