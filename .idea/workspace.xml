@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="исправление синтаксических ошибок">
+    <list default="true" id="c8f3cd7c-b131-447f-befe-4543c9edba4f" name="Default Changelist" comment="Мой старый проект flask&#10;это мини библиотека в которой есть небольшая информация о произведениях и авторах. &#10;Возможна сортировка и поиск произведений внутри страницы.&#10;Все эти данные хранятся в базе данных. &#10;Есть возможность регистрации пользователя, которому доступен больший функционал.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,12 +47,13 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/draka/PycharmProjects/dz_univer_Kononov/benchmarks/compiled_modules&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/draka/PycharmProjects/dz_univer_Kononov&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\draka\PycharmProjects\dz_univer_Kononov" />
       <recent name="D:\draka\PycharmProjects\dz_univer_Kononov\benchmarks\compiled_modules" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -458,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682978251270</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Мой старый проект flask&#10;это мини библиотека в которой есть небольшая информация о произведениях и авторах. &#10;Возможна сортировка и поиск произведений внутри страницы.&#10;Все эти данные хранятся в базе данных. &#10;Есть возможность регистрации пользователя, которому доступен больший функционал.">
+      <created>1683587070658</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1683587070658</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -473,7 +481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="дз про фрактал&#10;по идее это листочек папоротника" />
     <MESSAGE value="Сделал реактивную ракету&#10;Мне нравится)" />
     <MESSAGE value="Евклид простой" />
     <MESSAGE value="Евклид расширенный" />
@@ -498,6 +505,7 @@
     <MESSAGE value="немного моего мнения про интернет" />
     <MESSAGE value="мой старый QT проект &#10;немного доработал и обновил до версии Qt6&#10;это игра - историческая викторина&#10;выбирается файл с БД вопросов и ответами в виде дат &#10;Программа сама генерирует неправильные ответы и предлагает выбрать нужный&#10;по окончании игры она записывает твой результат в БД с результатами, где ты можешь сравнить свой результат с остальными" />
     <MESSAGE value="исправление синтаксических ошибок" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправление синтаксических ошибок" />
+    <MESSAGE value="Мой старый проект flask&#10;это мини библиотека в которой есть небольшая информация о произведениях и авторах. &#10;Возможна сортировка и поиск произведений внутри страницы.&#10;Все эти данные хранятся в базе данных. &#10;Есть возможность регистрации пользователя, которому доступен больший функционал." />
+    <option name="LAST_COMMIT_MESSAGE" value="Мой старый проект flask&#10;это мини библиотека в которой есть небольшая информация о произведениях и авторах. &#10;Возможна сортировка и поиск произведений внутри страницы.&#10;Все эти данные хранятся в базе данных. &#10;Есть возможность регистрации пользователя, которому доступен больший функционал." />
   </component>
 </project>
